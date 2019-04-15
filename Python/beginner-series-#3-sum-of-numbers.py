@@ -19,3 +19,8 @@ def get_sum(a, b):
 
 
 get_sum(-1, 2)
+
+
+# better solution
+def get_sum(a, b):
+    return sum(range(min(a, b), max(a, b)+1))
